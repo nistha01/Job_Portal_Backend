@@ -33,5 +33,5 @@ public class JobController {
    public String postJobs(@RequestBody List<Job> jobs){
         return jobService.postJobs(jobs);
    }
-   public
+
 }
